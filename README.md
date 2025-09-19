@@ -49,7 +49,7 @@ Você vai precisar ter as seguintes ferramentas instaladas na sua máquina:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://url-do-seu-repositorio.git](https://url-do-seu-repositorio.git)
+    git clone [https://github.com/RegisMichael25/Mural-de-Ideias.git](https://github.com/RegisMichael25/Mural-de-Ideias.git)
     cd mural-de-ideias-api
     ```
 
