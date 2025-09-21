@@ -17,7 +17,6 @@
 		<java.version>17</java.version>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
-		<spring-cloud-starter-openfeign.version>4.2.1</spring-cloud-starter-openfeign.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
 		<!-- deprecated -->
 		<modelmapper.version>3.2.0</modelmapper.version>
@@ -81,12 +80,10 @@
 			<artifactId>mapstruct</artifactId>
 			<version>${mapstruct.version}</version>
 		</dependency>
-		<!-- openfeign -->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
-			<version>${spring-cloud-starter-openfeign.version}</version>
-		</dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
 	</dependencies>
 
 	<build>
